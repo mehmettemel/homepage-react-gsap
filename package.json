@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "gsap": "^3.5.1",
+    "imagemin": "^7.0.1",
+    "imagemin-webp": "^6.0.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-router": "^5.2.0",
