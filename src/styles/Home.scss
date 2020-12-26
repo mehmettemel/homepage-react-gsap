@@ -1,0 +1,41 @@
+@import '../App.scss';
+.home {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+
+  .scroll {
+    padding: 2vh 0;
+    pointer-events: none;
+    margin-top: 4rem;
+  }
+  .img-container {
+    width: 700px;
+    height: 520px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:nth-child(1) {
+      margin-top: 200px;
+    }
+    &:last-child {
+      margin-bottom: 200px;
+    }
+    @media (max-width: 480px) {
+      width: 95%;
+    }
+    img {
+      width: 100%;
+      position: absolute;
+    }
+  }
+}

@@ -17,7 +17,7 @@ const Header = ({ history }) => {
     history.listen(() => {
       setState({ clicked: false, menuName: 'Menu' })
     })
-  }, [])
+  })
   const handleMenu = () => {
     disabledMenu()
     if (state.initial === false) {
